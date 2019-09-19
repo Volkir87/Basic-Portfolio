@@ -46,62 +46,67 @@ table {
 /* New element, class and id style definitions start here */
 
 footer {
-    border-top: 5px solid #4aaaa5;
+    border-top: 1vh solid #4aaaa5;
     text-align: center;
-    padding: 15px 0px 15px 0px;
-    margin-top: 300px;
+    padding: 2vh 0vw 2vh 0vw;
+    margin-top: 28vh;
     background-color: gray;
     color: white;
-    height: 35px;
+    height: 3.5vh;
 }
 
 p {
-    margin: 15px 5px 15px 5px;
+    margin: 2vh 0.5vw 2vh 0.5vw;
+    line-height: 1.5;
+    color: #777777;
 }
 
 .personal-info {
-    margin: 40px 200px 10px 200px;
-    padding: 10px;
+    margin: 8vh 15vw 0vh 15vw;
+    padding: 3vh;
     background-color: #ffffff;
+    border: #dddddd 2px solid;
 }
 
 #portfolio-image {
     width: 125px;
     height: 125px;
     float: left;
-    margin: 15px;
+    margin: 2vh;
 }
 
 .links {
-    margin: 5px 5px 5px 5px;
-    padding: 15px 5px 5px 5px;
-    width: 15%;
-    height: 38px;
+    margin: 0vh 12vw 0vh 10vw;
+    padding: 4vh 0vw 0vh 0vw;
+    width: 20vw;
+    height: 10vh;
     float: right;
 }
 
 .top {
-    height: 65px;
+    height: 10vh;
     background-color: #ffffff;
-    border-bottom: 2px gray solid;
+    border-bottom: 0.5vh #cccccc solid;
+    box-sizing: border-box;
 }
 
 #about-me {
     text-align: left;
-    border-bottom: 2px gray solid;
-    padding: 0px 0px 15px 0px;
+    border-bottom: 2px #cccccc solid;
+    padding: 0vh 0vw 2vh 0vw;
     color: #4aaaa5;
 }
 
 #name {
-    margin: 0px 5px 0px 200px;
-    padding: 17px 5px 0px 5px;
-    width: 17%;
-    height: 48px;
+    margin: 0vh 0vw 0vh 15vw;
+    padding: 3vh 1vw 0vh 1vw;
+    width: 17vw;
+    height: 9.5vh;
     background-color: #4aaaa5;
     color: white;  
     float: left;
     text-align: center;
+    box-sizing: border-box;
 }
 
 #name, #about-me {
@@ -113,9 +118,21 @@ p {
 .general {
     background-image: url("../images/so-white.png");
     background-color: #cccccc;
-    height: 650px;
+    height: 100vh;
 }
 
 footer, p, .links {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.left-bordered {
+    border-left: 2px #cccccc solid;
+}
+
+a {
+    width: 5vw;
+    padding: 0vh 1vw 0vh 1vw;
+    text-align: center;
+    color: #777777;
+    text-decoration: none;
 }
