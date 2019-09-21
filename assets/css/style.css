@@ -173,3 +173,46 @@ input {
     resize: vertical;
     border-color: #cccccc;
 }
+
+.portfolio-box {
+    width: 30%;
+    height: 25vh;
+    display: inline-block;
+    border: #cccccc solid 2px;
+    margin: 3vh 4vw 3vh 4vw;   
+    padding: 0vh; 
+}
+
+#hangman {
+    background-image: url("../images/Hangman.jpg");
+    background-size: 100%;
+}
+#rpg {
+    background-image: url("../images/RPG.jpg");
+    background-size: 100%;
+}
+#trivia {
+    background-image: url("../images/Puzzle.jpg");
+    background-size: 100%;
+}
+#widget {
+    background-image: url("../images/Widget.jpg");
+    background-size: 100%;
+}
+#rock {
+    background-image: url("../images/Rock_Paper_Scissors.jpg");
+    background-size: 100%;
+}
+
+.portfolio-item-name {
+    display: inline-block;
+    width: 100%;
+    height: 5vh;
+    background-color: #4aaaa5;
+    color: white;
+    padding-top: 1vh;
+    font-size: 3vh;
+    padding: 0vh;
+    margin: 0vh;
+    margin-top: 18vh;
+}
